@@ -1,24 +1,54 @@
-# 👋 ¡Hola! Soy Roman Martin
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px" />
+  <h1>¡Hola! Soy Roman Martin</h1>
+  <p>
+    🎓 Estudiante de Programación | 💻 Desarrollador Backend Java | 🚀 Buscando nuevos desafíos
+  </p>
+  <p>
+    💼 <strong>Actual:</strong> Desarrollo y Sistemas @ Municipalidad de Mendoza
+  </p>
+</div>
 
-🎓 Estudiante avanzado de Programación  
-💻 Apasionado por el desarrollo Backend con Java + Spring Boot  
-📚 Actualmente aprendiendo sobre testing, APIs REST y metodologías ágiles  
-🚀 En búsqueda de mi primera experiencia profesional en el mundo IT  
+---
 
-## 🛠 Tecnologías que uso
+## 🛠️ Habilidades Clave
 
-- 💻 Java · Spring Boot · JPA · Hibernate · REST APIs  
-- 🗄️ MySQL · SQL · H2  
-- 🧪 JUnit · Postman · Swagger  
-- 🧰 Git · GitHub · Maven · IntelliJ / NetBeans  
+### 🚀 Backend
+<p>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white" />
+  <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" />
+  <img src="https://img.shields.io/badge/JPA%2FHibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+</p>
 
-## 📂 En mi perfil encontrarás...
+* ☕ APIs RESTful, DTOs, Manejo de Excepciones.
+* 🔀 Conexión a múltiples BBDD (Multi-Datasource).
+* 🗃️ Combinación de ORM (JPA) y SQL nativo (`JdbcTemplate`).
 
-- Proyectos personales simples para practicar buenas prácticas
-- Pruebas de APIs REST con Java y Spring
-- Ejercicios de SQL y lógica de programación
+### 💻 Frontend
+<p>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white" />
+</p>
 
-## 📫 Cómo contactarme
+* 🔄 React Router, Context API (Manejo de estado y autenticación).
+* 📄 Generación de PDFs en cliente (`jsPDF`).
 
-- Email: romanfacultad1@gmail.com  
-- LinkedIn: https://www.linkedin.com/in/roman-martin-0594ba370/
+---
+
+## 📫 Hablemos
+
+<div align="center">
+  <a href="mailto:romanfacultad1@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/roman-martin-0594ba370/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+</div>
