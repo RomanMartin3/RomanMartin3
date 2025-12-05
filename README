@@ -16,36 +16,48 @@ Plataforma centralizada para la gestión de recursos humanos.
 * **Desafío:** Unificar datos históricos (Legacy Oracle) con nuevos registros transaccionales (MySQL) en tiempo real.
 * **Solución:** Implementación de arquitectura **Multi-Datasource** en Spring Boot con JPA, permitiendo consultas cruzadas transparentes.
 * **Seguridad:** Autenticación Stateless con **Spring Security + JWT** e integración con servidor de correos **Zimbra**.
-* **Frontend:** Interfaz reactiva en React/TS con generación de documentos legales (Bonos, Certificados) on-the-fly (Client-side rendering).
+* **Frontend:** Interfaz reactiva en React/TS con generación de documentos legales (Bonos, Certificados) on-the-fly.
 
 #### 💳 Pasarela de Adhesión a Débito Automático
 Microservicio crítico para la recaudación municipal e integración financiera.
 * **Integración:** Desarrollo de adaptador para la API de **MercadoPago** (Gateway, Customer & Card management).
 * **Arquitectura de Datos:** Implementación de modelo **EAV (Entity-Attribute-Value)** para manejar metadatos flexibles de contribuyentes sin alterar el esquema base.
-* **Seguridad:** Firmado criptográfico de peticiones (`SignatureUtils`) para garantizar la integridad de las transacciones financieras.
+* **Seguridad:** Firmado criptográfico de peticiones para garantizar la integridad de las transacciones financieras.
 
 ---
 
 ### 🛠 Tech Stack
 
-**Core Backend**
-![Java](https://img.shields.io/badge/Java_17+-ED8B00?style=flat&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat&logo=spring-boot&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat&logo=spring-security&logoColor=white)
-![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=flat&logo=hibernate&logoColor=white)
+<h3>Core Backend</h3>
+<p>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot" />
+  <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=spring-security&logoColor=white" alt="Spring Security" />
+  <img src="https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white" alt="Hibernate" />
+</p>
 
-**Data & Infra**
-![Oracle](https://img.shields.io/badge/Oracle_Database-F80000?style=flat&logo=oracle&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker_Compose-2496ED?style=flat&logo=docker&logoColor=white)
+<h3>Data & Infrastructure</h3>
+<p>
+  <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+</p>
 
-**Frontend Integration**
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
+<h3>Frontend Integration</h3>
+<p>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="TailwindCSS" />
+</p>
 
 ---
 
 ### 📫 Contacto
-* [LinkedIn](https://www.linkedin.com/in/roman-martin-0594ba370/)
-* 📧 romanfacultad1@gmail.com
+<p>
+  <a href="https://www.linkedin.com/in/roman-martin-0594ba370/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:romanfacultad1@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</p>
