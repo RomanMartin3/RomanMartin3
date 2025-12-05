@@ -1,61 +1,51 @@
-# Román Martin
+# Hola, soy Román Martin.
 **Backend Developer (Java/Spring Boot) | Técnico Universitario en Programación (UTN)**
 
-Actualmente modernizo sistemas críticos en la **Municipalidad de Mendoza**, migrando lógica legacy a arquitecturas de microservicios y soluciones cloud-ready. Mi enfoque es la robustez de los datos y la seguridad en las integraciones.
+Actualmente en el equipo de **Sistemas de la Municipalidad de Mendoza**, enfocado en la modernización de servicios públicos y la integración de arquitecturas legacy con microservicios modernos.
+
+Me especializo en entornos complejos donde la seguridad y la integridad de los datos son críticas.
 
 ---
 
-### 🧠 Ingeniería & Arquitectura
+### 🚀 Experiencia Técnica Destacada
 
-Mi experiencia no se limita a crear APIs; diseño soluciones para entornos complejos:
+Mi enfoque principal es el Backend, aunque diseño y despliego soluciones Fullstack completas.
 
-* **Arquitecturas Multi-Datasource:** Configuración avanzada de Spring Data para transaccionar simultáneamente con **Oracle (Legacy)** y **MySQL (Modern)** en el mismo contexto de persistencia.
-* **Integración de Pasarelas de Pago:** Implementación de **Mercado Pago API** con validación de seguridad (HMAC Signatures) para el manejo de webhooks y débitos recurrentes.
-* **Seguridad Customizada:** Implementación de autenticación Stateless con **JWT**, manejo de Cookies HttpOnly/Secure y filtros de seguridad a medida en Spring Security.
-* **Reportes Dinámicos:** Generación de documentos PDF (Bonos de sueldo, Certificados) tanto en servidor (Java) como en cliente (jsPDF/React).
+#### 🏛️ Sistema de Autogestión del Empleado (Mendoza)
+Plataforma centralizada para la gestión de recursos humanos.
+* **Desafío:** Unificar datos históricos (Legacy Oracle) con nuevos registros transaccionales (MySQL) en tiempo real.
+* **Solución:** Implementación de arquitectura **Multi-Datasource** en Spring Boot con JPA, permitiendo consultas cruzadas transparentes.
+* **Seguridad:** Autenticación Stateless con **Spring Security + JWT** e integración con servidor de correos **Zimbra**.
+* **Frontend:** Interfaz reactiva en React/TS con generación de documentos legales (Bonos, Certificados) on-the-fly (Client-side rendering).
+
+#### 💳 Pasarela de Adhesión a Débito Automático
+Microservicio crítico para la recaudación municipal e integración financiera.
+* **Integración:** Desarrollo de adaptador para la API de **MercadoPago** (Gateway, Customer & Card management).
+* **Arquitectura de Datos:** Implementación de modelo **EAV (Entity-Attribute-Value)** para manejar metadatos flexibles de contribuyentes sin alterar el esquema base.
+* **Seguridad:** Firmado criptográfico de peticiones (`SignatureUtils`) para garantizar la integridad de las transacciones financieras.
 
 ---
 
 ### 🛠 Tech Stack
 
-**Core Backend:**
+**Core Backend**
 ![Java](https://img.shields.io/badge/Java_17+-ED8B00?style=flat&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-3-6DB33F?style=flat&logo=spring-boot&logoColor=white)
-![JPA Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=flat&logo=hibernate&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat&logo=spring-boot&logoColor=white)
 ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat&logo=spring-security&logoColor=white)
+![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=flat&logo=hibernate&logoColor=white)
 
-**Infra & Datos:**
-![Oracle](https://img.shields.io/badge/Oracle_DB-F80000?style=flat&logo=oracle&logoColor=white)
+**Data & Infra**
+![Oracle](https://img.shields.io/badge/Oracle_Database-F80000?style=flat&logo=oracle&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker_Compose-2496ED?style=flat&logo=docker&logoColor=white)
 
-**Frontend Integration:**
-![React](https://img.shields.io/badge/React_18-20232A?style=flat&logo=react&logoColor=61DAFB)
+**Frontend Integration**
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
 
 ---
 
-### 📂 Proyectos Destacados
-
-#### 1. Portal de Autogestión del Empleado (Muni. Mendoza)
-Plataforma centralizada para que los empleados gestionen su vida laboral.
-* **Desafío:** Unificar datos dispersos en sistemas legacy (Oracle) y nuevas bases de datos (MySQL).
-* **Solución:** Orquestación **Multi-Datasource** en Spring Boot. Implementación de `JWT` para sesiones seguras y conexión con **Zimbra** para servicios de mensajería institucional.
-* **Stack:** Java, Spring Boot, React, TypeScript, Oracle, MySQL.
-* 🔗 [Ver Repositorio](LINK_A_TU_REPO_AUTOGESTION) *(O solicitar acceso si es privado)*
-
-#### 2. Sistema de Adhesión a Débito Automático
-Motor de pagos y suscripciones para servicios municipales.
-* **Desafío:** Integrar de forma segura la pasarela de Mercado Pago evitando fraudes en las notificaciones.
-* **Solución:** Desarrollo de un Gateway custom (`MpGatewayImpl`) y validación criptográfica de firmas (**HMAC**) para asegurar la integridad de los Webhooks de pago. Modelo de datos flexible para manejar metadatos de transacciones.
-* **Stack:** Java, Spring Security, Mercado Pago API, Docker.
-* 🔗 [Ver Repositorio](LINK_A_TU_REPO_DEBITO)
-
----
-
-### 📫 Contacto Profesional
-Si buscas un desarrollador que entienda tanto de código limpio como de la realidad de los sistemas productivos, hablemos.
-
+### 📫 Contacto
 * [LinkedIn](https://www.linkedin.com/in/roman-martin-0594ba370/)
 * 📧 romanfacultad1@gmail.com
