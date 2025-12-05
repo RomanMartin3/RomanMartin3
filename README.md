@@ -1,5 +1,4 @@
 
-Conversación con Gemini
 # Hola, soy Román Martin.
 
 **Backend Developer (Java/Spring Boot) | Técnico Universitario en Programación (UTN)**
