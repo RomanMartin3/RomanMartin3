@@ -1,86 +1,55 @@
+# Hola, soy Román Martin 👋
 
-# Hola, soy Román Martin.
+**Backend Developer (Java/Spring Boot) | Creador de TinMarket | Técnico Universitario en Programación (UTN)**
 
-**Backend Developer (Java/Spring Boot) | Técnico Universitario en Programación (UTN)**
+Soy un desarrollador de software radicado en Mendoza, Argentina, especializado en la creación de arquitecturas Backend robustas, escalables y seguras. Aunque mi núcleo es el ecosistema Java (Spring Boot 3, Java 17), diseño y desarrollo soluciones Fullstack de principio a fin, construyendo interfaces modernas y responsivas con React, Vite y TailwindCSS. 
 
-
-
-Actualmente en el equipo de **Sistemas de la Municipalidad de Mendoza**, enfocado en la modernización de servicios públicos y la integración de arquitecturas legacy con microservicios modernos.
-
-
-
-Me especializo en entornos complejos donde la seguridad y la integridad de los datos son críticas.
-
-
+Actualmente formo parte del equipo de Sistemas de la **Municipalidad de Mendoza**, modernizando servicios públicos críticos, y en paralelo, soy el fundador y desarrollador principal de **TinMarket**, una plataforma SaaS B2B.
 
 ---
 
+## 🚀 Proyectos Destacados
 
-
-### 🚀 Experiencia Técnica Destacada
-
-
-
-Mi enfoque principal es el Backend, aunque diseño y despliego soluciones Fullstack completas.
-
-
-
-#### 🏛️ Sistema de Autogestión del Empleado (Mendoza)
-
-Plataforma centralizada para la gestión de recursos humanos.
-
-* **Desafío:** Unificar datos históricos (Legacy Oracle) con nuevos registros transaccionales (MySQL) en tiempo real.
-
-* **Solución:** Implementación de arquitectura **Multi-Datasource** en Spring Boot con JPA, permitiendo consultas cruzadas transparentes.
-
-* **Seguridad:** Autenticación Stateless con **Spring Security + JWT** e integración con servidor de correos **Zimbra**.
-
-* **Frontend:** Interfaz reactiva en React/TS con generación de documentos legales (Bonos, Certificados) on-the-fly (Client-side rendering).
-
-
-
-#### 💳 Pasarela de Adhesión a Débito Automático
-
-Microservicio crítico para la recaudación municipal e integración financiera.
-
-* **Integración:** Desarrollo de adaptador para la API de **MercadoPago** (Gateway, Customer & Card management).
-
-* **Arquitectura de Datos:** Implementación de modelo **EAV (Entity-Attribute-Value)** para manejar metadatos flexibles de contribuyentes sin alterar el esquema base.
-
-* **Seguridad:** Firmado criptográfico de peticiones (`SignatureUtils`) para garantizar la integridad de las transacciones financieras.
-
-
+### 🛒 [TinMarket](https://tinmarket.com.ar/) (SaaS en Producción)
+Plataforma SaaS integral de gestión comercial para pequeñas y medianas empresas, diseñada para resolver la complejidad del control de stock, facturación y la actualización masiva de precios indexados por inflación. 
+*   **Estado:** En producción, operando activamente con comercios clientes.
+*   **Arquitectura:** Diseño *Multi-tenant* que garantiza el aislamiento, escalabilidad y la separación segura de datos entre diferentes negocios en una misma infraestructura. 
+*   **Stack Tecnológico:** Java 17, Spring Boot 3, Spring Data JPA, MySQL y un frontend reactivo construido con React, Vite y TailwindCSS.
+*   **Impacto:** Desarrollo *end-to-end* del producto, desde la concepción del modelo de negocio hasta el despliegue de la arquitectura web.
 
 ---
 
+## 🏛️ Experiencia Profesional (Municipalidad de Mendoza)
 
+En mi rol actual, me especializo en entornos de alta demanda donde la seguridad, la concurrencia y la integridad de los datos son críticas, logrando integrar arquitecturas *legacy* con microservicios modernos.
 
-### 🛠 Tech Stack
+**1. Pasarela de Adhesión a Débito Automático**
+*   **El desafío:** Construir el microservicio crítico para la recaudación municipal mediante integración financiera directa.
+*   **Solución:** Desarrollo de un adaptador transaccional para la API de MercadoPago (Gateway, Customer & Card management).
+*   **Arquitectura y Seguridad:** Implementación de modelo EAV (Entity-Attribute-Value) para manejar metadatos flexibles de contribuyentes sin alterar el esquema base. Aseguramiento de transacciones mediante firmado criptográfico de peticiones (`SignatureUtils`).
 
-**Core Backend**  
-[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://java.com)
-[![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)](https://spring.io/projects/spring-boot)
-[![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=spring-security&logoColor=white)](https://spring.io/projects/spring-security)
-[![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)](https://hibernate.org)
-
-**Data & Infra**  
-[![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)](https://www.oracle.com)
-[![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com)
-[![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com)
-
-**Frontend Integration**  
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org)
-[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
-[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
-
-
+**2. Sistema de Autogestión del Empleado**
+*   **El desafío:** Centralizar el sistema de recursos humanos y unificar datos históricos (Legacy Oracle) con nuevos registros transaccionales (MySQL) en tiempo real.
+*   **Solución:** Implementación de arquitectura *Multi-Datasource* en Spring Boot con JPA, permitiendo consultas cruzadas transparentes y altamente optimizadas.
+*   **Seguridad y Frontend:** Autenticación Stateless (Spring Security + JWT), integración con servidor de correos Zimbra, y un frontend en React/TypeScript para la generación de documentos legales *on-the-fly* (Client-side rendering).
 
 ---
 
+## 🛠️ Stack Tecnológico
 
+**Core Backend:** 
+`Java 17` | `Spring Boot 3` | `Spring Data JPA` | `Spring Security` | `JWT` | `Microservicios`
 
-### 📫 Contacto
+**Data & Infraestructura:** 
+`MySQL` | `Oracle` | `Arquitectura Multi-Datasource` | `Diseño Multi-tenant`
 
-* [LinkedIn](https://www.linkedin.com/in/roman-martin-0594ba370/)
+**Frontend Integration:** 
+`React` | `TypeScript` | `Vite` | `TailwindCSS`
 
-* 📧 romanfacultad1@gmail.com
+---
+
+## 📫 Conecta conmigo
+
+*   **LinkedIn:** [Enlace a tu perfil de LinkedIn]
+*   **Email:** romanfacultad1@gmail.com
+*   **Portfolio / Proyecto:** [tinmarket.com.ar](https://tinmarket.com.ar/)
