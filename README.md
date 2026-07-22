@@ -4,7 +4,7 @@
 
 Me dedico a diseñar y construir sistemas backend robustos, principalmente en el ecosistema Java (Spring Boot 3, Java 17). Aunque mi fuerte está en el servidor, también diseño soluciones Fullstack usando React para llevar proyectos desde la idea hasta producción.
 
-Actualmente trabajo en el equipo de Sistemas de la **Municipalidad de Mendoza**, lidiando con la integración de arquitecturas legacy y microservicios modernos, y soy el desarrollador principal de **TinMarket**.
+Actualmente trabajo en el equipo de Sistemas de la **Municipalidad de Mendoza**, lidiando con la integración de arquitecturas legacy y microservicios modernos, y soy el creador de **TinMarket**.
 
 ---
 
