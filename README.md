@@ -1,55 +1,58 @@
 # Hola, soy Román Martin 👋
 
-**Backend Developer (Java/Spring Boot) | Creador de TinMarket | Técnico Universitario en Programación (UTN)**
+**Backend Developer | Creador de TinMarket | Técnico Universitario en Programación (UTN)**
 
-Soy un desarrollador de software radicado en Mendoza, Argentina, especializado en la creación de arquitecturas Backend robustas, escalables y seguras. Aunque mi núcleo es el ecosistema Java (Spring Boot 3, Java 17), diseño y desarrollo soluciones Fullstack de principio a fin, construyendo interfaces modernas y responsivas con React, Vite y TailwindCSS. 
+Me dedico a diseñar y construir sistemas backend robustos, principalmente en el ecosistema Java (Spring Boot 3, Java 17). Aunque mi fuerte está en el servidor, también diseño soluciones Fullstack usando React para llevar proyectos desde la idea hasta producción.
 
-Actualmente formo parte del equipo de Sistemas de la **Municipalidad de Mendoza**, modernizando servicios públicos críticos, y en paralelo, soy el fundador y desarrollador principal de **TinMarket**, una plataforma SaaS B2B.
+Actualmente trabajo en el equipo de Sistemas de la **Municipalidad de Mendoza**, lidiando con la integración de arquitecturas legacy y microservicios modernos, y soy el desarrollador principal de **TinMarket**.
 
 ---
 
 ## 🚀 Proyectos Destacados
 
-### 🛒 [TinMarket](https://tinmarket.com.ar/) (SaaS en Producción)
-Plataforma SaaS integral de gestión comercial para pequeñas y medianas empresas, diseñada para resolver la complejidad del control de stock, facturación y la actualización masiva de precios indexados por inflación. 
-*   **Estado:** En producción, operando activamente con comercios clientes.
-*   **Arquitectura:** Diseño *Multi-tenant* que garantiza el aislamiento, escalabilidad y la separación segura de datos entre diferentes negocios en una misma infraestructura. 
-*   **Stack Tecnológico:** Java 17, Spring Boot 3, Spring Data JPA, MySQL y un frontend reactivo construido con React, Vite y TailwindCSS.
-*   **Impacto:** Desarrollo *end-to-end* del producto, desde la concepción del modelo de negocio hasta el despliegue de la arquitectura web.
+### 🛒 [TinMarket](https://tinmarket.com.ar/) 
+*SaaS B2B de gestión comercial para pymes (Actualmente en Producción).*
+
+Construí esta plataforma desde cero para resolver problemas reales de pequeños comercios: control de stock, facturación y actualización masiva de precios indexados por inflación.
+* **Arquitectura:** Diseño Multi-tenant. Los datos de cada comercio están completamente aislados y seguros, permitiendo escalar el sistema fácilmente.
+* **El Stack:** Spring Boot 3, Java 17, Spring Data JPA, MySQL. El frontend está construido con React, Vite y TailwindCSS.
+* **Lo que logré:** Llevar un producto end-to-end, desde pensar la arquitectura de la base de datos hasta tener clientes reales usándolo en su día a día.
 
 ---
 
-## 🏛️ Experiencia Profesional (Municipalidad de Mendoza)
+## 🏛️ Experiencia Profesional 
 
-En mi rol actual, me especializo en entornos de alta demanda donde la seguridad, la concurrencia y la integridad de los datos son críticas, logrando integrar arquitecturas *legacy* con microservicios modernos.
+**Municipalidad de Mendoza | Backend Developer**
+Mi día a día implica trabajar en un entorno donde la seguridad y la integridad de los datos no son negociables. 
 
-**1. Pasarela de Adhesión a Débito Automático**
-*   **El desafío:** Construir el microservicio crítico para la recaudación municipal mediante integración financiera directa.
-*   **Solución:** Desarrollo de un adaptador transaccional para la API de MercadoPago (Gateway, Customer & Card management).
-*   **Arquitectura y Seguridad:** Implementación de modelo EAV (Entity-Attribute-Value) para manejar metadatos flexibles de contribuyentes sin alterar el esquema base. Aseguramiento de transacciones mediante firmado criptográfico de peticiones (`SignatureUtils`).
-
-**2. Sistema de Autogestión del Empleado**
-*   **El desafío:** Centralizar el sistema de recursos humanos y unificar datos históricos (Legacy Oracle) con nuevos registros transaccionales (MySQL) en tiempo real.
-*   **Solución:** Implementación de arquitectura *Multi-Datasource* en Spring Boot con JPA, permitiendo consultas cruzadas transparentes y altamente optimizadas.
-*   **Seguridad y Frontend:** Autenticación Stateless (Spring Security + JWT), integración con servidor de correos Zimbra, y un frontend en React/TypeScript para la generación de documentos legales *on-the-fly* (Client-side rendering).
+* **Pasarela de Adhesión a Débito Automático:** Desarrollé el microservicio encargado de la recaudación municipal. Integré la API de MercadoPago y diseñé un modelo de base de datos EAV (Entity-Attribute-Value) para manejar datos flexibles de los contribuyentes. Todo asegurado con firmado criptográfico de peticiones.
+* **Sistema de Autogestión del Empleado:** Modernicé el sistema de recursos humanos unificando bases de datos viejas (Oracle) con las nuevas (MySQL) usando una arquitectura Multi-Datasource. Implementé seguridad con JWT y un frontend en React para generar documentos legales en tiempo real.
 
 ---
 
 ## 🛠️ Stack Tecnológico
 
-**Core Backend:** 
-`Java 17` | `Spring Boot 3` | `Spring Data JPA` | `Spring Security` | `JWT` | `Microservicios`
+### Core Backend
+![Java](https://img.shields.io/badge/Java_17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white)
 
-**Data & Infraestructura:** 
-`MySQL` | `Oracle` | `Arquitectura Multi-Datasource` | `Diseño Multi-tenant`
+### Data & Infra
+![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+![Oracle](https://img.shields.io/badge/Oracle-F00000?style=for-the-badge&logo=oracle&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
-**Frontend Integration:** 
-`React` | `TypeScript` | `Vite` | `TailwindCSS`
+### Frontend
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 ---
 
-## 📫 Conecta conmigo
+## 📫 Contacto
 
-*   **LinkedIn:** [Enlace a tu perfil de LinkedIn]
-*   **Email:** romanfacultad1@gmail.com
-*   **Portfolio / Proyecto:** [tinmarket.com.ar](https://tinmarket.com.ar/)
+* [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/roman-martin-0594ba370/)
+* [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:romanfacultad1@gmail.com)
+* 🌐 **SaaS:** [tinmarket.com.ar](https://tinmarket.com.ar/)
